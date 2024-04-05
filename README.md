@@ -3,8 +3,8 @@
     1201576 
     Web servises 
 
+ ![Inventore_manage_system (1)](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/c14d77b0-9591-4ac8-bf67-09dc03572e3c)
 
-![Inventore_manage_system drawio](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/8e2f7b75-2137-4397-8bb6-fce83d923c8b)
 
 Customer Resource  
 this resource content information about customer to manage private information .
