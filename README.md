@@ -16,11 +16,13 @@ content information about all items in the system added by vendors . it is use t
 
 ![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/4a3356db-9c87-4ece-a612-c364fdb143d6)
 
-Vendor Resource This resource contains information about  suppliers. It is used to manage and retrieve data related to vendors.
+Vendor Resource :
+This resource contains information about  suppliers. It is used to manage and retrieve data related to vendors.
 
 ![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/5f677198-86ba-44ea-b9d8-c7a50a01004e)
 
-Order resourse : The Order Resource manages information about orders placed by customers. It tracks details such as order items, quantities,and  prices.
+Order resourse :
+The Order Resource manages information about orders placed by customers. It tracks details such as order items, quantities,and  prices.
 
 ![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/37e0ee0b-f0c7-494a-a034-81f84f9b6b9c)
 
