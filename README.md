@@ -2,8 +2,10 @@
     Yaqeen issa 
     1201576 
     Web servises 
+    
+[YAQEENISSA3_1-Ass-1.0.0-oas3.1-swagger.json](https://github.com/yaqeenissa/inventory-management-system/files/14893314/YAQEENISSA3_1-Ass-1.0.0-oas3.1-swagger.json)
 
- ![Inventore_manage_system (1)](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/c14d77b0-9591-4ac8-bf67-09dc03572e3c)
+![Inventore_manage_system (1)](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/c14d77b0-9591-4ac8-bf67-09dc03572e3c)
 
 
 Customer Resource  
