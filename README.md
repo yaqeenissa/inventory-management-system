@@ -17,22 +17,26 @@ The sample Inventory Management System The system allows vendors to provide prod
 Customer Resource  
 this resource content information about customer to manage private information .
 
-![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/a06ed479-36e1-4b32-a4a3-24eedabfc4a3)
+![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/ab5e6600-392c-487a-8b78-c00b35a180f1)
 
 product catalog  Resource 
 content information about all items in the system added by vendors . it is use to mange and retrive data related to product .
 
-![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/4a3356db-9c87-4ece-a612-c364fdb143d6)
+					
+![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/910d9c89-970a-4ede-8ac7-0c953a08ac8a)
+
 
 Vendor Resource :
 This resource contains information about  suppliers. It is used to manage and retrieve data related to vendors.
 
-![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/5f677198-86ba-44ea-b9d8-c7a50a01004e)
+![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/dd477b19-a75d-437f-8570-2db5dffe471b)
+
 
 Order resourse :
 The Order Resource manages information about orders placed by customers. It tracks details such as order items, quantities,and  prices.
 
-![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/37e0ee0b-f0c7-494a-a034-81f84f9b6b9c)
+			
+![image](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/fffe4dfd-e44e-471f-bba2-4e29b366c7a0)
 
 
 
