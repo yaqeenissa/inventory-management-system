@@ -3,10 +3,15 @@
     1201576 
     Web servises 
     
+Design APIs using OpenAPI specification    
 [YAQEENISSA3_1-Ass-1.0.0-oas3.1-swagger.json](https://github.com/yaqeenissa/inventory-management-system/files/14893314/YAQEENISSA3_1-Ass-1.0.0-oas3.1-swagger.json)
 
-![Inventore_manage_system (1)](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/c14d77b0-9591-4ac8-bf67-09dc03572e3c)
+ERD:
 
+![Inventore_manage_system (2)](https://github.com/yaqeenissa/inventory-management-system/assets/121451794/c0ff5c21-7f2a-4fd6-b9f6-ecb4a317b5d3)
+
+
+The sample Inventory Management System The system allows vendors to provide products which customers can purchase through placing orders.
 
 Customer Resource  
 this resource content information about customer to manage private information .
