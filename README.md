@@ -2,8 +2,10 @@
     Yaqeen issa 
     1201576 
     Web servises 
-    
-Design APIs using OpenAPI specification 
+
+Swagger Hub: https://app.swaggerhub.com/apis/YAQEENISSA3_1/inventory-management_system_rest_ap_is/1.0.0-oas3.1
+
+Design APIs using OpenAPI specification (DOWNLODE)
 [YAQEENISSA3_1-Ass-1.0.0-oas3.1-swagger.json](https://github.com/yaqeenissa/inventory-management-system/files/14895256/YAQEENISSA3_1-Ass-1.0.0-oas3.1-swagger.json)
 
 
