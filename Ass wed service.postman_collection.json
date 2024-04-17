@@ -1,0 +1,501 @@
+{
+	"info": {
+		"_postman_id": "530159e6-a6d2-4187-b09c-1f45027d6c04",
+		"name": "Ass wed service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33954174"
+	},
+	"item": [
+		{
+			"name": "get all customer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Customer/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Customer",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get vendors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"userName\": \"moh\",\r\n        \"password\": \"moh2\",\r\n        \"name\": \"mom\",\r\n        \"id\": \"1000\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Vendor/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Vendor",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCutomerByid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"moh\",\r\n    \"password\": \"moh2\",\r\n    \"name\": \"mom\",\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Vendor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Vendor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get vendor by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n  \"Name\": \"noor\",\r\n  \"userName\": \"noor@13\",\r\n  \"password\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Vendor?id=1000",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Vendor"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add new Vendor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"userName\": \"moh2_issa\",\r\n        \"password\": \"moh2_issa\",\r\n        \"name\": \"momhmad issa\",\r\n        \"id\": \"1001\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Vendor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Vendor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add new customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ID\":\"1003\",\r\n  \"name\": \"raneem\",\r\n  \"userName\": \"roro@123\",\r\n  \"password\": \"roro@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Customer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get items",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"100\",\r\n  \"idOrder\": \"661e92c61577e05fe310bd0d\",\r\n  \"idVendor\": \"1000\",\r\n  \"price\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Item/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Item",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Orders",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"100\",\r\n  \"idOrder\": \"661e92c61577e05fe310bd0d\",\r\n  \"idVendor\": \"1000\",\r\n  \"price\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Order/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Order",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Order by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"100\",\r\n  \"idOrder\": \"661e92c61577e05fe310bd0d\",\r\n  \"idVendor\": \"1000\",\r\n  \"price\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Order?id=66dd",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Order"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "66dd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add new order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/Order/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Order",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get item by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Item?id=661e8e20e2715217290a9fbd",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Item"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "661e8e20e2715217290a9fbd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update customer by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/Customer/{raneem}/{roro@123}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Customer",
+						"{raneem}",
+						"{roro@123}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add new order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"3000\",\r\n        \"itemId\": null,\r\n        \"customerId\": null,\r\n        \"quantity\": 90\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Order",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add new item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"789\",\r\n        \"idOrder\": null,\r\n        \"idVendor\": null,\r\n        \"price\": 1080,\r\n        \"itemName\":\r\n    }\r\n    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Item",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Item"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"haleeem\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/Customer?id=661e8b6de2715217290a9fba",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Customer"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "661e8b6de2715217290a9fba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/Customer?id=1003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Customer"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1003"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
