@@ -1,7 +1,7 @@
 # inventory-management-system
     Yaqeen issa 
     1201576 
-    Web servises 
+    Web services 
 
 Swagger Hub: https://app.swaggerhub.com/apis/YAQEENISSA3_1/inventory-management_system_rest_ap_is/1.0.0-oas3.1
 
